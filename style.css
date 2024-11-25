@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  height: 100vh;
+  background-image: url(/image/HP-Festive-Women-Hero-Banner-Desktop-3840x2160.avif);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 4;
+}
+.hero .navbar {
+  height: 80px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.hero .navbar .icons a {
+  color: white;
+  font-size: 22px;
+  margin-right: 15px;
+}
+.hero .navbar nav ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+.hero .navbar nav ul a {
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+  font-weight: 10px;
+}
+
+.banner {
+  margin-top: 15px;
+}
+.banner .banner1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.banner .banner1 .ban1 {
+  height: 90vh;
+  background-image: url(/image/banner1.avif);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.banner .banner1 .ban2 {
+  height: 90vh;
+  background-image: url(/image/banner2.avif);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.trends {
+  margin-top: 15px;
+}
+.trends .trends1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.trends .trends1 .trend1 {
+  height: 90vh;
+  background-image: url(/image/trends1.avif);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-position-y: 0.5px;
+}
+.trends .trends1 .trend2 {
+  height: 90vh;
+  background-image: url(/image/trends2.avif);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.trends .trends1 .trend3 {
+  height: 90vh;
+  background-image: url(/image/trends3.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.strikers {
+  margin-top: 15px;
+}
+.strikers .strikers1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.strikers .strikers1 .striker1 {
+  height: 90vh;
+  background-image: url(/image/striker1.avif);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.strikers .strikers1 .striker2 {
+  height: 90vh;
+  background-image: url(/image/striker2.avif);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.footwears {
+  margin-top: 15px;
+}
+.footwears .footwears1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.footwears .footwears1 .foot1 {
+  height: 50vh;
+  background-image: url(/image/footwear1.avif);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-position-y: 0.5px;
+}
+.footwears .footwears1 .foot2 {
+  height: 50vh;
+  background-image: url(/image/footwear2.avif);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.footwears .footwears1 .foot3 {
+  height: 50vh;
+  background-image: url(/image/footwear3.avif);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .hero {
+    height: 100vh;
+    background-image: url(/image/HP-Festive-Women-Hero-Banner-Desktop-3840x2160.avif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+    opacity: 4;
+    
+    
+
+  
+    .navbar {
+      height: 80px;
+     color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: transparent;
+      padding-left: 20px;
+      padding-right: 20px;
+
+      .icons{
+        
+       a{
+        color: white;
+        font-size: 22px;
+        margin-right: 15px;
+       }
+      }
+  
+      nav ul {
+        display: flex;
+        list-style: none;
+        gap: 25px;
+  
+        a {
+          text-decoration: none;
+          font-size: 24px;
+          color: white;
+          font-weight: 10px;
+        }
+      }
+    }
+    
+    
+  }
+  .banner{
+    margin-top: 15px;
+    .banner1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        .ban1{
+            height: 90vh;
+             background-image: url(/image/banner1.avif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+        }
+        .ban2{
+            height: 90vh;
+             background-image: url(/image/banner2.avif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+        }
+    }
+  }
+
+    .trends{
+        margin-top: 15px;
+    .trends1{
+        display: grid;
+        grid-template-columns:  1fr 1fr 1fr;
+        .trend1{
+            height: 90vh;
+             background-image: url(/image/trends1.avif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 0.5px;
+    
+        }
+        .trend2{
+            height: 90vh;
+             background-image: url(/image/trends2.avif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+        }
+           .trend3{
+            height: 90vh;
+             background-image: url(/image/trends3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+        }
+        
+    }
+  }
+  .strikers{
+    margin-top: 15px;
+    .strikers1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        .striker1{
+            height: 90vh;
+             background-image: url(/image/striker1.avif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+        }
+        .striker2{
+            height: 90vh;
+             background-image: url(/image/striker2.avif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+        }
+    }
+  }
+  .footwears{
+        margin-top: 15px;
+    .footwears1{
+        display: grid;
+        grid-template-columns:  1fr 1fr 1fr;
+        .foot1{
+            height: 50vh;
+             background-image: url(/image/footwear1.avif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 0.5px;
+    
+        }
+        .foot2{
+            height: 50vh;
+             background-image: url(/image/footwear2.avif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+        }
+           .foot3{
+            height: 50vh;
+             background-image: url(/image/footwear3.avif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+        }
+        
+    }
+  }
+
+ 
