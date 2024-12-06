@@ -1,168 +1,431 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  .hero {
-    height: 100vh;
-    background-image: url(/image/HP-Festive-Women-Hero-Banner-Desktop-3840x2160.avif);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    
-    opacity: 4;
-    
-    
+.hero {
+  height: 100vh;
+  background-image: url(/image/HP-Festive-Women-Hero-Banner-Desktop-3840x2160.avif);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 
-  
-    .navbar {
-      height: 80px;
-     color: white;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background-color: transparent;
-      padding-left: 20px;
-      padding-right: 20px;
+  opacity: 4;
 
-      .icons{
-        
-       a{
+  .navbar {
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    .icons {
+      a {
         color: white;
         font-size: 22px;
         margin-right: 15px;
-       }
-      }
-  
-      nav ul {
-        display: flex;
-        list-style: none;
-        gap: 25px;
-  
-        a {
-          text-decoration: none;
-          font-size: 24px;
-          color: white;
-          font-weight: 10px;
-        }
       }
     }
-    
-    
-  }
-  .banner{
-    margin-top: 15px;
-    .banner1{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        .ban1{
-            height: 90vh;
-             background-image: url(/image/banner1.avif);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    
-        }
-        .ban2{
-            height: 90vh;
-             background-image: url(/image/banner2.avif);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    
-        }
-    }
-  }
 
-    .trends{
-        margin-top: 15px;
-    .trends1{
-        display: grid;
-        grid-template-columns:  1fr 1fr 1fr;
-        .trend1{
-            height: 90vh;
-             background-image: url(/image/trends1.avif);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-position-y: 0.5px;
-    
-        }
-        .trend2{
-            height: 90vh;
-             background-image: url(/image/trends2.avif);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    
-        }
-           .trend3{
-            height: 90vh;
-             background-image: url(/image/trends3.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    
-        }
-        
-    }
-  }
-  .strikers{
-    margin-top: 15px;
-    .strikers1{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        .striker1{
-            height: 90vh;
-             background-image: url(/image/striker1.avif);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    
-        }
-        .striker2{
-            height: 90vh;
-             background-image: url(/image/striker2.avif);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    
-        }
-    }
-  }
-  .footwears{
-        margin-top: 15px;
-    .footwears1{
-        display: grid;
-        grid-template-columns:  1fr 1fr 1fr;
-        .foot1{
-            height: 50vh;
-             background-image: url(/image/footwear1.avif);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-position-y: 0.5px;
-    
-        }
-        .foot2{
-            height: 50vh;
-             background-image: url(/image/footwear2.avif);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    
-        }
-           .foot3{
-            height: 50vh;
-             background-image: url(/image/footwear3.avif);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    
-        }
-        
-    }
-  }
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 25px;
 
- 
+      a {
+        text-decoration: none;
+        font-size: 24px;
+        color: white;
+        font-weight: 10px;
+      }
+    }
+  }
+}
+.banner {
+  margin-top: 15px;
+  .banner1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    .ban1 {
+      height: 90vh;
+      background-image: url(/image/banner1.avif);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+      flex-direction: column;
+      .ban1_heading a {
+        color: white;
+
+        padding: 8px;
+        border-radius: 6px;
+        background-color: #d40001;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 12px;
+        font-family: sans-serif;
+      }
+      .ban1_heading1 a {
+        height: 100px;
+        color: white;
+        border-bottom: 1px solid white;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        font-family: sans-serif;
+        margin-right: 15px;
+      }
+      .ban1_heading1 a:hover {
+        color: red;
+        transition: 0.5s;
+      }
+    }
+    .ban2 {
+      height: 90vh;
+      background-image: url(/image/banner2.avif);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+      flex-direction: column;
+      .ban1_heading a {
+        color: white;
+
+        padding: 8px;
+        border-radius: 6px;
+        background-color: #d40001;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 12px;
+        font-family: sans-serif;
+      }
+      .ban1_heading1 a {
+        height: 100px;
+        color: white;
+        border-bottom: 1px solid white;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        font-family: sans-serif;
+        margin-right: 15px;
+      }
+      .ban1_heading1 a:hover {
+        color: red;
+        transition: 0.5s;
+      }
+    }
+  }
+}
+
+.trends {
+  margin-top: 15px;
+  .trends1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    .trend1 {
+      height: 90vh;
+      background-image: url(/image/trends1.avif);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      background-position-y: 0.5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+      flex-direction: column; 
+      padding: 15px;
+      .ban2_heading h1 {
+        color: white;
+
+        padding: 8px;
+        border-radius: 6px;
+       
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 35px;
+        align-items:center ;
+        font-family: sans-serif;
+        text-align: center;
+      }
+      .ban2_heading1 a {
+        height: 100px;
+        color: white;
+        border-bottom: 1px solid white;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        font-family: sans-serif;
+        margin-right: 15px;
+      }
+      .ban2_heading1 a:hover {
+        color: red;
+        transition: 0.5s;
+      }
+    }
+    .trend2 {
+      height: 90vh;
+      background-image: url(/image/trends2.avif);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+       display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+      flex-direction: column; 
+      padding: 15px;
+      .ban2_heading h1 {
+        color: white;
+
+        padding: 8px;
+        border-radius: 6px;
+       
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 35px;
+        align-items:center ;
+        font-family: sans-serif;
+        text-align: center;
+      }
+      .ban2_heading1 a {
+        height: 100px;
+        color: white;
+        border-bottom: 1px solid white;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        font-family: sans-serif;
+        margin-right: 15px;
+      }
+      .ban2_heading1 a:hover {
+        color: red;
+        transition: 0.5s;
+      }
+    }
+    .trend3 {
+      height: 90vh;
+      background-image: url(/image/trends3.jpg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+      flex-direction: column; 
+      padding: 15px;
+      .ban2_heading h1 {
+        color: white;
+
+        padding: 8px;
+        border-radius: 6px;
+       
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 35px;
+        align-items:center ;
+        font-family: sans-serif;
+        text-align: center;
+      }
+      .ban2_heading1 a {
+        height: 100px;
+        color: white;
+        border-bottom: 1px solid white;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        font-family: sans-serif;
+        margin-right: 15px;
+      }
+      .ban2_heading1 a:hover {
+        color: red;
+        transition: 0.5s;
+      }
+    }
+  }
+}
+.strikers {
+  margin-top: 15px;
+  .strikers1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    .striker1 {
+      height: 90vh;
+      background-image: url(/image/striker1.avif);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+       display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+      flex-direction: column; 
+      padding: 15px;
+      .ban3_heading h1 {
+        color: white;
+
+        padding: 8px;
+        border-radius: 6px;
+       line-height: 10px;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 35px;
+        align-items:center ;
+        font-family: sans-serif;
+        text-align: center;
+      }
+      .ban3_heading1 a {
+        height: 100px;
+        color: white;
+        border-bottom: 1px solid white;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        font-family: sans-serif;
+        margin-right: 15px;
+      }
+      .ban3_heading1 a:hover {
+        color: red;
+        transition: 0.5s;
+      }
+    }
+    .striker2 {
+      height: 90vh;
+      background-image: url(/image/striker2.avif);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+       display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+      flex-direction: column; 
+      padding: 15px;
+      .ban3_heading h1 {
+        color: white;
+
+        padding: 8px;
+        border-radius: 6px;
+       
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 35px;
+        align-items:center ;
+        font-family: sans-serif;
+        text-align: center;
+      }
+      .ban3_heading1 a {
+        height: 100px;
+        color: white;
+        border-bottom: 1px solid white;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        font-family: sans-serif;
+        margin-right: 15px;
+      }
+      .ban3_heading1 a:hover {
+        color: red;
+        transition: 0.5s;
+      }
+    }
+  }
+}
+.footwears {
+  margin-top: 15px;
+  .footwears1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    .foot1 {
+      height: 50vh;
+      background-image: url(/image/footwear1.avif);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      background-position-y: 0.5px;
+         display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+      flex-direction: column; 
+      padding: 15px;
+      .ban4_heading h1 {
+        color: white;
+
+        padding: 8px;
+        border-radius: 6px;
+       
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 35px;
+        align-items:center ;
+        font-family: sans-serif;
+        text-align: center;
+      }
+      
+    }
+    .foot2 {
+      height: 50vh;
+      background-image: url(/image/footwear2.avif);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+         display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+      flex-direction: column; 
+      padding: 15px;
+      .ban4_heading h1 {
+        color: white;
+
+        padding: 8px;
+        border-radius: 6px;
+       
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 35px;
+        align-items:center ;
+        font-family: sans-serif;
+        text-align: center;
+      }
+    }
+    .foot3 {
+      height: 50vh;
+      background-image: url(/image/footwear3.avif);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+         display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+      flex-direction: column; 
+      padding: 15px;
+      .ban4_heading h1 {
+        color: white;
+
+        padding: 8px;
+        border-radius: 6px;
+       
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 35px;
+        align-items:center ;
+        font-family: sans-serif;
+        text-align: center;
+      }
+    }
+  }
+}
