@@ -21,6 +21,18 @@
   background-color: transparent;
   padding-left: 20px;
   padding-right: 20px;
+  position: fixed;
+  width: 100%;
+}
+.hero .navbar .icons input {
+  background-color: transparent;
+  height: 33px;
+  border: 2px solid rgb(182, 183, 169);
+  opacity: 1;
+  color: white;
+  margin-right: 20px;
+  padding-left: 10px;
+  border-radius: 5px;
 }
 .hero .navbar .icons a {
   color: white;
@@ -34,9 +46,21 @@
 }
 .hero .navbar nav ul a {
   text-decoration: none;
-  font-size: 24px;
+  font-size: 20px;
   color: white;
   font-weight: 10px;
+}
+.hero .navbar:hover {
+  background-color: whitesmoke;
+  transition: 0.5s;
+  color: #d40001;
+}
+.hero .navbar:hover input {
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.hero .navbar:hover a {
+  color: black;
 }
 
 .banner {
@@ -406,4 +430,126 @@
   align-items: center;
   font-family: sans-serif;
   text-align: center;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  height: 80vh;
+  padding-left: 180px;
+  padding-right: 180px;
+  background-color: rgba(207, 207, 194, 0.584);
+}
+.footer .quick {
+  justify-content: center;
+  align-items: center;
+  height: 280px;
+  padding: 30px;
+  text-transform: uppercase;
+  color: black;
+}
+.footer .quick h1 {
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+.footer .quick ul {
+  list-style: none;
+  padding-bottom: 10px;
+  font-weight: 100;
+}
+.footer .quick ul li {
+  margin-bottom: 10px;
+}
+.footer .quick ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .navbar:hover {
+    background-color: whitesmoke;
+    transition: 0.5s;
+    color: #d40001;
+  }
+  .navbar:hover input {
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  .navbar:hover a {
+    color: black;
+  }
+  .icons input {
+    display: none;
+  }
+  .banner {
+    margin-top: 15px;
+  }
+  .banner .banner1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .trends {
+    margin-top: 15px;
+  }
+  .trends .trends1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 140vh;
+  }
+}
+@media (max-width: 425px) {
+  .footwears {
+    margin-top: 15px;
+  }
+  .footwears .footwears1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .navbar nav {
+    display: none;
+  }
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+  .footer .quick {
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: black;
+  }
+  .footer .quick h1 {
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 10px;
+  }
+  .footer .quick ul {
+    list-style: none;
+    padding-bottom: 10px;
+    font-weight: 100;
+  }
+  .footer .quick ul li {
+    margin-bottom: 10px;
+  }
+  .footer .quick ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
 }/*# sourceMappingURL=style.css.map */
